@@ -18,6 +18,7 @@ public class TrailSelenium {
 	@Test
 	public void initiateBrowser() {
 		System.setProperty("webdriver.chrome.driver", "/home/naveen/softwares/Selenium_requirements/chromedriver");
+		System.setProperty("webdriver.chrome.allowedIps", "http://localhost:8080");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://google.com");
