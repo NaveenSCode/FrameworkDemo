@@ -17,11 +17,11 @@ public class TrailSelenium {
 	
 	@Test
 	public void initiateBrowser() {
-		System.setProperty("webdriver.chrome.driver", "/home/naveen/softwares/Selenium_requirements/chromedriver");
-		ChromeDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://google.com");
-		driver.close();
+// 		System.setProperty("webdriver.chrome.driver", "/home/naveen/softwares/Selenium_requirements/chromedriver");
+// 		ChromeDriver driver = new ChromeDriver();
+// 		driver.manage().window().maximize();
+// 		driver.get("https://google.com");
+// 		driver.close();
 		System.out.println("success");
 	}
 	
