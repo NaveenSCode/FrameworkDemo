@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25675" started-at="2021-06-06T13:16:33 IST" finished-at="2021-06-06T13:16:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25675" started-at="2021-06-06T13:16:33 IST" finished-at="2021-06-06T13:16:59 IST">
+      <class name="seleniumpractise.TrailSelenium">
+        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:seleniumpractise.TrailSelenium@617faa95]" name="initiateBrowser" duration-ms="25615" started-at="2021-06-06T13:16:33 IST" finished-at="2021-06-06T13:16:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+      </class> <!-- seleniumpractise.TrailSelenium -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
